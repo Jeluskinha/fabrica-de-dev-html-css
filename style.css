@@ -34,3 +34,35 @@ body{
         height: 100%;
         width: 100%;
       }
+  main{
+    
+  }
+    section{
+
+    }
+      nav{
+
+      }
+        span{
+
+        }
+        ul{
+          display: flex;
+          gap: 1rem;
+
+          list-style: none;
+        }
+          li{
+
+          }
+            figure{
+              height: 300px;
+              width: 200px;
+            }
+              img{
+                height: inherit;
+                width: inherit;
+              }
+            a{
+
+            }
