@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 1500px;
+  justify-self: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+  figure {
+    height: 300px;
+    width: 400px;
+    
+    margin-left: 20px;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: -50%;
+  }
+  img{
+    border-radius: 10% 30% 50% 70%;
+    height: 100%;
+    width: 100%;
+  }
+  .apresentacao {
+  width: 70%;
+  align-content: end;
+  }
+    .box_apresentacao {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    h1{
+      width: 100%;
+      font-size: 50px;
+
+    }
+    .box_apresentacao--dados {
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+    }
+      .box_apresentacao--dado {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+section{
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+  pre{
+    width: 70%;
+  }
+    p {
+      text-align:justify;
+      font-size: 20px;
+      color: wheat;
+      /* text-indent: 3ch;  espaçamento de parágrafo -> 1° linha *usar sem a pre* */
+      text-wrap: wrap;
+    }
+
+main{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+  div{
+    height: inherit;
+    width: 50%;
+    border-color: red;
+  }
