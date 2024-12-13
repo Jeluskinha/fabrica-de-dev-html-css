@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: rgba(51,51,51,255);
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+}
+  main {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+    .cabecalho {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+    }
+      figure {
+        height: 280px;
+        width: 350px;
+        
+        margin-left: 20px;
+        border-radius: 50%;
+
+        position: relative;
+        bottom: -50%;
+      }
+      img{
+        /* border-radius: 10% 30% 50% 70%; */
+        border-radius: 60% 30% 50% 10%;
+        height: 100%;
+        width: 100%;
+      }
+      .apresentacao {
+      width: 60%;
+      align-content: end;
+      }
+        .box_apresentacao {
+          height: fit-content;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          text-align: start;
+        }
+        h1{
+          width: 100%;
+          font-size: 50px;
+          color: #5571aa;
+
+        }
+        .box_apresentacao--dados {
+          display: flex;
+          flex-direction: column;
+          padding-left: 10px;
+        }
+          .box_apresentacao--dado {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: start;
+          }
+    section{
+      height: 250px;
+      background-color: #5571a9;
+      display: flex;
+      justify-content: end;
+      padding-right: 20px;
+    }
+      pre{
+        width: 60%;
+      }
+        p {
+          text-align:justify;
+          font-size: 20px;
+          color: whitesmoke;
+          /* text-indent: 3ch;  espaçamento de parágrafo -> 1° linha *usar sem a pre* */
+          text-wrap: wrap;
+        }
+
+    .dados{
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: space-evenly;
+
+      padding: 10px 0;
+    }
+      .box__dados{
+        height: inherit;
+        width: 30%;
+        text-align: center;
+      
+      }
+        .box__dados--tipo{
+          color: black;
+          text-align: start;
+          text-wrap: wrap;
+        }
+        .box__dados--descricao{
+          margin-top: 20px;
+          text-align: start;
+          color: black;
+        }
+
+.midia{
+  flex-grow: 1; /* pega o restante da largura */
+  height: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  gap: 5rem;
+  
+  background-color: rgba(51,51,51,255);
+}
+  .midia__pichPessoal--box{
+    height: 490px;
+    width: 650px;
+    padding: 5px;
+    border-radius: 5px;
+
+    background-color:#5571a9;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+    video {
+      border-radius: 5px;
+      align-self: center;
+    }
+
+  .midia__box{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:black;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem; 
+  }
+    span{
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+    
+      text-align: center;
+    }
+    .midia__nav{
+      height: 100%; 
+      width: fit-content;
+      display: flex;
+      
+      gap: 1rem;
+    }
+      .midia__link{
+        height: 50px;
+        width: 50px;
+      }
+        .midia__link--img{
+          height: inherit;
+          width: inherit;
+
+          border-radius: 10px;
+        }
+ 
